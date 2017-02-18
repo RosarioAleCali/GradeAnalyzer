@@ -25,7 +25,7 @@ void write(char filename2[], char name[][MAX_NAME_SIZE], float w[], float q[], f
 
 int main () {
 
-	//Declare and define variables
+    //Declare and define variables
     float w[MAX_CLASS_SIZE];
     float q[MAX_CLASS_SIZE];
     float t[MAX_CLASS_SIZE];
@@ -98,7 +98,7 @@ int main () {
        		found = -1;
 		}
 
-       	//Calling the write function to generate the file
+       		//Calling the write function to generate the file
 		write(filename2, name, w, q, t, p, e, total, grade);
 
     } else if(ReadInput==-1)
