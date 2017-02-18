@@ -1,5 +1,5 @@
 # GradeAnalyzer
-The StudentGradeAnalyzer is a small C program that I have developed as a project 
+The GradeAnalyzer is a small C program that I have developed as a project 
 for my BTP100 class (Introduction to Programming using C) at Seneca College during Fall 2015.
 The program reads raw data from a "student.dat" file and then it displays the data in a table, 
 the table is also written to a file ("analysis.dat") before the program terminates. 
